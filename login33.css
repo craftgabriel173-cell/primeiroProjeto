@@ -1,0 +1,296 @@
+body {
+  background-color: #35446d;
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  transition: background-color 0.5s ease;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ce {
+  background-color:#35a1be ;
+  border-radius: 20px;
+  padding: 40px 36px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+input {
+  font-size: 15px;
+  padding: 12px 16px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background: #eef2f7;
+  color: #1a1a2e;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+#butao {
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: #4f8ef7;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+#butao:hover {
+  background: #3a7ae0;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+}
+
+#susseco2 {
+  color: greenyellow;
+  display: none;
+}
+
+#erro {
+  color: red;
+  display: none;
+  font-size:16px;
+}
+
+#nigt {
+  border-radius:30px;
+  font-size:17px;
+  background-color:cadetblue;
+  color:white;
+  border:none;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: bold;
+}
+
+#nigt:hover {
+  background:#16494b ;
+}
+
+p {
+  color: white;
+}
+
+.img3 {
+  height: auto;
+  width: auto;
+}
+
+.sob{
+  display: flex;
+ flex-direction: column;
+}
+
+#nigth2 {
+  border-radius:30px;
+  font-size:17px;
+  background-color:cadetblue;
+  color:white;
+  border:none;
+  padding: 12px;
+}
+
+.line-clamp-1 {
+  text-align: center;
+  font-size: 20px;
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.Users {
+  border-radius: 30px;
+  background-color:cadetblue;
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  gap: 9px;
+  width: 240px;
+}
+
+#us {
+  margin: 8px;
+}
+
+#but5 {
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: #18e3aad0;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+#but5:hover {
+  background: #22b8ad6d ;
+}
+
+#sussecoSenha {
+  display: none;
+  color: greenyellow;
+}
+
+.delet {
+  display: flex;
+  flex-direction: column;
+  background-color:#35a1be ;
+  padding: 70px;
+  border-radius: 20px;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 40px 36px;
+  width: 320px;
+}
+#butttondelet {
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: #4f8ef7;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+#butttondelet:hover {
+  background:#0b457b;
+}
+
+#cdelet {
+  display: none;
+  color: greenyellow;
+}
+
+#meumodel:not([open]) {
+  display: none;
+}
+
+
+#meumodel {
+  display: flex;
+  border: none;
+  border-radius: 18px;
+  flex-direction: column;
+  gap: 14px;
+  background-color:#112c7f80;
+}
+
+@keyframes dialogEntrar {
+  from { opacity: 0; transform: scale(0.92) translateY(-10px); }
+  to   { opacity: 1; transform: scale(1)   translateY(0); }
+}
+
+#meumodel::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+#meumodel h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #ff6b6b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+#meumodel span {
+  font-size: 0.88rem;
+  color: #a0aec0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#comfirm {
+  font-size: 14px;
+  padding: 11px;
+  border-radius: 30px;
+  border: none;
+  background: #e53e3e;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, transform 0.15s;
+}
+
+#comfirm:hover {
+  background: #c53030;
+  transform: scale(1.03);
+}
+
+#cancel {
+  font-size: 14px;
+  padding: 11px;
+  border-radius: 30px;
+  border: 1px solid #4a5568;
+  background: transparent;
+  color: #a0aec0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+
+#cancel:hover {
+  background: #2d3748;
+  color: white;
+  transform: scale(1.03);
+}
+
+
+#cdeletIN {
+  display: none;
+  color: red;
+}
+
+#namerepetid {
+  display: none;
+  color: red;
+}
+
+#preenchaOsCampos {
+  display:none;
+  color:red;
+}
+
+#mensagemDeErrorDigitosAusentes {
+  display:none;
+  color:red;
+}
+
+#error  {
+  display: none;
+  color: red;
+  
+}
+
+#deletarConta {
+  text-align: center;
+  font-size: 22px;
+  color: red;
+  text-decoration: none;
+}

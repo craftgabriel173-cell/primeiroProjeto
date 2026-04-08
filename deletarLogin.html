@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../desing/login33.css"/>
+    <title>Deletar login</title>
+  </head>
+  <body>
+    <section>
+      <h1>Deletar Login</h1>
+      <div class="delet">
+        <input type="text"  id="deletN" placeholder="digite seu nome:" />
+        <input type="text"  id="deletS" placeholder="Digite a senha:"/>
+        <p id="cdeletIN">conta nao encontrada</p>
+        <p id="cdelet">sua conta foi deletada com susseco</p>
+        <button type="submit" id="butttondelet">Deletar conta</button>
+      </div>
+      
+      <dialog id="meumodel">
+        <h3>tem certeza que voce quer apagar essa conta?</h3>
+        <span>caso voce delete esssa conta voce nao poderar mais acessala</span>
+         <button type="submit" id="comfirm"> sim quero deletar</button>
+         <button type="submit" id="cancel"> cancelar</button>
+      </dialog>
+    </section>
+    <script src="../scripts/deletarLoginJS.js" type="module" charset="utf-8">
+      
+    </script>
+  </body>
+</html>

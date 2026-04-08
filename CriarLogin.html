@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../desing/login33.css"/>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Criar novo usuário</h1>
+       <div class="Users">
+         <input type="text" id="us-0" placeholder="Digite seu nome de usuário:" />
+         
+         <input type="password" id="us-1" placeholder="Digite sua senha de usuário:" />
+         
+         <input type="password" id="us-2" placeholder="Comfirme sua senha:" />
+         
+          <p id='susseco2'> login feito com susseco</p>
+           <p id="error"> senha diferente da outra</p>
+           <p id="namerepetid">esse nome de usuario ja existe! tente outro</p>
+           <p id="preenchaOsCampos"> Preenchatodos os campos</p>
+           <p id="mensagemDeErrorDigitosAusentes">
+             A senha precisa ter 6 ou mais caracteres
+           </p>
+         
+         <button type="submit" id="but5">enviar dados</button>
+       </div>
+      </section>
+    </main>
+    <script type="module" charset="utf-8" src="../scripts/criarUsuario.js">
+    </script>
+  </body>
+</html>
